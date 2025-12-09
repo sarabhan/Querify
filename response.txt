@@ -1,0 +1,7 @@
+The chapter where JavaScript is being taught starts from 19th to 32nd chapter. 
+
+Looking through the given video chunk information , we can see in the first chunk of video Javascript Chapter (JavaScript 19-32) is starting and here we have two videos "1/10.mp3" and "1/19.mp3" which seems to be the start time of chapter from 19th to 32nd. 
+
+It seems that this is where the user would start learning Javascript as their first video is 1/10.mp3 which has a start time of 306.68 seconds, meaning the 10th minute of the course.
+
+So the first video "audios/JavaScript 19-32/1/10.mp3" will guide the user to learn where and how much content JavaScript is being taught at the start from 10 minutes of the course.

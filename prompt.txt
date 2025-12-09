@@ -1,0 +1,9 @@
+
+        Here are video chunks containing video's text of the chunk , video name audios/JavaScript 19-32/2/2.mp4 here the 2.mp4 is the name of the video and 2 before 2.mp4 is the number of the chapter also Javascript 19-32 is the chapter title where 19-32 tells that this javascript charpter continues from 19th to 32nd chapter in the course , the chunk also have start time in seconds and end time in seconds of the partcular chunk (if user asks unrelated questions tell that question is unrelated to your expertiese):
+
+        [{"text":" how to write javascript","video":"audios\/JavaScript 19-32\/1\/10.mp3","start":306.68,"end":308.68},{"text":" so what does javascript do?","video":"audios\/JavaScript 19-32\/1\/19.mp3","start":27.72,"end":28.72},{"text":" so in javascript we will learn","video":"audios\/JavaScript 19-32\/1\/21.mp3","start":268.24,"end":270.24},{"text":" javascript","video":"audios\/JavaScript 19-32\/1\/21.mp3","start":246.24,"end":248.24},{"text":" to learn our javascript code","video":"audios\/JavaScript 19-32\/1\/2.mp3","start":225.92,"end":227.92}]
+        -------------------------------------------
+        Question : where is javascript taught
+
+        The user asked this question related to the video chunks, you have to answer where and how much content is taught where(in which video and at hat timestamp) and guide the user to that particular video
+        
