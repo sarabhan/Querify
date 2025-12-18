@@ -1,0 +1,674 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.0,
+    "text": " Hey guys, West here in this video, we're going to take a look at making GitHub Forks and PolarQuests.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 11.0,
+    "end": 18.5,
+    "text": " If you like videos about full-stack web development, machine learning and DevOps, then I would really appreciate it if you like and subscribe.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 18.5,
+    "end": 24.0,
+    "text": " On this video, we're going to talk about creating Forks and PolarQuests on GitHub.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 24.0,
+    "end": 32.0,
+    "text": " So one of the really important things about OpenSource is that the software we create in OpenSource projects is freely distributed.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 32.0,
+    "end": 43.0,
+    "text": " And so if you'd like to make a change to an existing OpenSource project, you can simply create a copy of that code for yourself and then work on it on your own.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 43.0,
+    "end": 55.0,
+    "text": " If you would like to contribute to a project, you can create a copy of that code and then make your changes and then request that those changes be merged back into that original project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 55.0,
+    "end": 64.0,
+    "text": " And when we're dealing with OpenSource projects on GitHub, creating a copy of some initial repository is called creating a Fork.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 64.0,
+    "end": 77.0,
+    "text": " And so in this video, we'll look at creating a Fork of an existing OpenSource project, making some changes and then creating a PolarQuests to actually request those changes, the merged back into that original project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 77.0,
+    "end": 84.0,
+    "text": " One of the really cool things about a PolarQuest is that you can create it early on in the process of making changes to a repository.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 84.0,
+    "end": 90.0,
+    "text": " So this is particularly useful if you're working on a larger bug fix or a feature request.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 90.0,
+    "end": 103.0,
+    "text": " And so what you would do is create a PolarQuest and then kind of share the ideas that you have, maybe some early code, some early changes, and then collaborate with other developers on the project as you work on those fixes.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 103.0,
+    "end": 118.0,
+    "text": " So that PolarQuest user interface really provides a nice way to collaborate with other developers as you're working on changes before those changes actually get approved and then potentially merged back into the master branch of some project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 118.0,
+    "end": 120.0,
+    "text": " So with that, let's dive into some code.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 120.0,
+    "end": 129.0,
+    "text": " We'll use a repository that I set up for this video, but you're more than welcome to use it as a practice repository for making Forks and PolarQuests.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 129.0,
+    "end": 133.0,
+    "text": " And if you have any questions at all, just be sure to leave them in the comments below.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 133.0,
+    "end": 138.0,
+    "text": " Alright, without let's take a look at some code.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 138.0,
+    "end": 146.0,
+    "text": " Okay, so our first step here is to visit GitHub and we'll find the project that we would like to fork.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 146.0,
+    "end": 154.0,
+    "text": " And for the sake of example, here I'm just going to fork a project that I created a couple of months ago, which is a Python epidemic simulation.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 154.0,
+    "end": 165.0,
+    "text": " I created this at the sort of start of the COVID-19 pandemic and was inspired by some interactive simulations that I saw in the news.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 165.0,
+    "end": 171.0,
+    "text": " And I just decided to create a really crude epidemic simulation here in Python.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 171.0,
+    "end": 176.0,
+    "text": " So you can check that out, but we're really just using this repository for the sake of example.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 176.0,
+    "end": 189.0,
+    "text": " So when we're working in open source and in particular here on GitHub and we'd like to make changes to a project say we need to create a bug fix or we'd like to otherwise contribute to some project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 189.0,
+    "end": 196.0,
+    "text": " Our first step is really to create a fork. And so I'm going to select fork here, directly on the project screen.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 196.0,
+    "end": 202.0,
+    "text": " And since I have a couple of organizations that up, it's going to ask me where should I fork this particular project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 202.0,
+    "end": 212.0,
+    "text": " So I'm going to fork this into an organizational account here, productive for productive dev. And we'll see this quick animation while GitHub is forking the project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 212.0,
+    "end": 219.0,
+    "text": " And when that's complete, you should see your username or organization here slash your repository that you just forked.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 219.0,
+    "end": 228.0,
+    "text": " So in this case, the Python epidemic simulation, which was forked from my personal West oil account slash Python epidemic simulation.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 228.0,
+    "end": 243.0,
+    "text": " So this is now a copy of that original repository. And we can make any changes that we'd like to our fork here without worrying about actually affecting that original repository that we forked from.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 243.0,
+    "end": 251.0,
+    "text": " So let's say that we would like to make some changes to this particular project. So the first step that we should do there is simply clone the project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 251.0,
+    "end": 259.0,
+    "text": " So here I'm going to get the URL on the clipboard and then head over to the terminal where we can get clone.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 259.0,
+    "end": 272.0,
+    "text": " So we're going to clone this repository down. And now I'm going to change directories into that Python epidemic simulation directory. And you can see that we're on master branch.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 273.0,
+    "end": 282.0,
+    "text": " Now the next thing that we should do here is we should configure git so that we're synced with that original repository that we forked from.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 282.0,
+    "end": 286.0,
+    "text": " So we have our copy of the repository here in this directory.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 286.0,
+    "end": 301.0,
+    "text": " But when we fork from some original project, we can configure git so that it will pull changes from that original or upstream repo directly into the local clone that we created when we forked.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 301.0,
+    "end": 307.0,
+    "text": " And so to do that, what we'll do is we'll head back to git hub and we'll go to the original project page.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 307.0,
+    "end": 313.0,
+    "text": " So this will be the original project that we forked from and we're going to get the URL for this project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 313.0,
+    "end": 316.0,
+    "text": " And then we'll head back to the terminal.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 316.0,
+    "end": 322.0,
+    "text": " And then we can actually just take a look at what the current remote is for our fork here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 322.0,
+    "end": 326.0,
+    "text": " And we can view our modes just by typing git remote dash of the.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 326.0,
+    "end": 333.0,
+    "text": " And so here we can see that this is indeed in this case the productive dev fork of that original project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 333.0,
+    "end": 336.0,
+    "text": " And we can see these are labeled as origin.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 336.0,
+    "end": 341.0,
+    "text": " But now we're going to add an upstream remote for that original repository.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 341.0,
+    "end": 345.0,
+    "text": " And so for that we can type git remote add upstream.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 345.0,
+    "end": 351.0,
+    "text": " And then I'm going to paste the original repository belonging to my personal count in this case.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 351.0,
+    "end": 358.0,
+    "text": " And now if we type git remote via again, I'm going to make the text a bit smaller here so it's easier to see.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 358.0,
+    "end": 373.0,
+    "text": " And now if we simply type git remote via again, now we can see that we have our origin which belongs to our fork and the upstream which belongs to the original repository that we forked from to begin with.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 373.0,
+    "end": 381.0,
+    "text": " And now anytime we actually just want to sync from that original repository to pretty simple process, we can run git fetch upstream.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 381.0,
+    "end": 390.0,
+    "text": " And then if we want to say merge from the upstream's master branch into our fork, we can just simply get check out master here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 390.0,
+    "end": 394.0,
+    "text": " And now we're on our fork master branch.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 394.0,
+    "end": 399.0,
+    "text": " And then we're going to merge upstream slash master.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 399.0,
+    "end": 406.0,
+    "text": " And in this case we're already up the date, but this would merge the changes from that upstream into our local master branch here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 406.0,
+    "end": 414.0,
+    "text": " And that would in a sense bring what we have in our fork here up to date and in sync with that upstream repository.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 414.0,
+    "end": 417.0,
+    "text": " And we wouldn't lose any changes that we have.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 417.0,
+    "end": 422.0,
+    "text": " So now let's say we have an idea. We want to make some changes to our fork here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 422.0,
+    "end": 429.0,
+    "text": " So next we want to propose those changes back up to the upstream and see if they get proved.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 429.0,
+    "end": 435.0,
+    "text": " So again this is just kind of a demo project. It's not really, I don't have any issues open or anything like that.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 435.0,
+    "end": 442.0,
+    "text": " But I will show you how you could make a poor request for a project if you were contributing to open source.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 442.0,
+    "end": 444.0,
+    "text": " So let's just take a look at the project here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 444.0,
+    "end": 449.0,
+    "text": " And let's say that we made a change to, let's just do constant stop pie in this case.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 449.0,
+    "end": 456.0,
+    "text": " And I'm just going to make some small changes here. We'll add some sort of dox strings here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 456.0,
+    "end": 460.0,
+    "text": " All right, so we don't need to go through and make any sort of substantial changes here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 460.0,
+    "end": 465.0,
+    "text": " But I will just put a couple of dox strings in on these classes.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 465.0,
+    "end": 468.0,
+    "text": " And then so we'll save those changes.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 468.0,
+    "end": 478.0,
+    "text": " And then we'll run get status, see the status and we can dip it and just see that we added these two dox strings to these classes.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 478.0,
+    "end": 485.0,
+    "text": " And what we're going to do is get add all, get commit add dox strings.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 485.0,
+    "end": 489.0,
+    "text": " And then we're going to get push.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 489.0,
+    "end": 495.0,
+    "text": " So now if we head back into get hub and we're going to go to our fork that we just worked with.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 495.0,
+    "end": 497.0,
+    "text": " And we'll take a look at the commits.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 497.0,
+    "end": 502.0,
+    "text": " And now we can see that there was a commit that was just made the one for adding dox strings here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 502.0,
+    "end": 507.0,
+    "text": " And then we can see that diff which indeed corresponds to our changes on our fork.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 507.0,
+    "end": 512.0,
+    "text": " And so let's say that we were happy with this particular fix or this request.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 512.0,
+    "end": 515.0,
+    "text": " And we wanted to create a pull request.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 515.0,
+    "end": 521.0,
+    "text": " So what we'll do is we'll head to the original repository and then we're going to select new pull request.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 521.0,
+    "end": 524.0,
+    "text": " Directly next to the branch dropdown.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 524.0,
+    "end": 534.0,
+    "text": " And then we're going to need to select compare across forks because we're going to be comparing across our fork that we actually created in our account.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 534.0,
+    "end": 540.0,
+    "text": " And we'd like to merge that into the base repository from which we actually forked to begin with.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 540.0,
+    "end": 544.0,
+    "text": " So since I'm in control of both of these accounts, I have a dropdown here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 544.0,
+    "end": 547.0,
+    "text": " But we're going to select from my fork here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 547.0,
+    "end": 553.0,
+    "text": " And we're going to open a pull request into the original master branch.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 553.0,
+    "end": 556.0,
+    "text": " Now we get this nice interface here to create this pull request.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 556.0,
+    "end": 559.0,
+    "text": " And we can leave comments for instance.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 559.0,
+    "end": 560.0,
+    "text": " And we can preview.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 560.0,
+    "end": 562.0,
+    "text": " We can use mark down here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 562.0,
+    "end": 564.0,
+    "text": " And there are some other neat features here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 564.0,
+    "end": 570.0,
+    "text": " For instance assigning ourselves to this particular pull request or assigning other users.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 570.0,
+    "end": 576.0,
+    "text": " We can also assign reviewers and create labels and assign this pull request to projects and milestones.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 576.0,
+    "end": 581.0,
+    "text": " And lots of other sort of project related things that we can work through here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 581.0,
+    "end": 583.0,
+    "text": " Notice that we can also see the diff.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 583.0,
+    "end": 586.0,
+    "text": " So in this case we only have these doctrings added.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 586.0,
+    "end": 591.0,
+    "text": " And if we're satisfied with this then we can just simply create the pull request.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 591.0,
+    "end": 600.0,
+    "text": " And so typically if you're working as a developer at an organization you'll have some type of standard process for creating pull requests.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 600.0,
+    "end": 604.0,
+    "text": " Often code will get reviewed in pull requests.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 604.0,
+    "end": 609.0,
+    "text": " But this is just to say that there's typically some type of process.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 609.0,
+    "end": 614.0,
+    "text": " So again note now that I am on the original Python epidemic simulation project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 614.0,
+    "end": 619.0,
+    "text": " And since I own this project I can also just here approve the merge request.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 619.0,
+    "end": 623.0,
+    "text": " And merge it otherwise I could leave comments.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 623.0,
+    "end": 626.0,
+    "text": " So we could do things like look at the files changed.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 626.0,
+    "end": 634.0,
+    "text": " And we could even leave comments on particular lines of code for the developer who opened the pull request to examine and review.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 634.0,
+    "end": 637.0,
+    "text": " And then we can click finish our review.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 637.0,
+    "end": 642.0,
+    "text": " And in this case I'm going to submit the review with this single comment.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 642.0,
+    "end": 649.0,
+    "text": " And now the author of that could come back and examine the comment and there could be some discussion about the changes made.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 649.0,
+    "end": 659.0,
+    "text": " And then the author of the pull request could continue making commits against this branch for which the pull request corresponds.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 659.0,
+    "end": 670.0,
+    "text": " And then once everyone is satisfied with the changes that we could then merge this pull request otherwise we could just choose not to merge it at any point in time and close it.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 670.0,
+    "end": 679.0,
+    "text": " The merge pull request dropdown also has a few other options here including squashing all the commits on this branch into a single commit if there are more than one.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 679.0,
+    "end": 682.0,
+    "text": " And then the ability also to rebase and merge.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 682.0,
+    "end": 688.0,
+    "text": " Okay so here I am going to just show you merging the pull request this will get merged.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 688.0,
+    "end": 692.0,
+    "text": " And now we'll see that the pull request has been merged.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 693.0,
+    "end": 697.0,
+    "text": " And so if we head back into the project here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 697.0,
+    "end": 710.0,
+    "text": " We're now on the original repository and indeed we can see that in our constants.py file our changes have now been merged back into that original project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 710.0,
+    "end": 721.0,
+    "text": " So I hope you guys enjoyed this video just kind of a simple demo on how you can for the project on GitHub and then create a pull request across different repositories and then potentially have that.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 721.0,
+    "end": 726.0,
+    "text": " Then potentially have that pull request merged back into the original project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  },
+  {
+    "start": 726.0,
+    "end": 732.0,
+    "text": " Okay so that pretty much wraps up this video as always thanks for watching and I'll see you next time.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day2\\1.mp3"
+  }
+]

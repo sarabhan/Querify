@@ -1,0 +1,152 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.0,
+    "text": " Hey guys, West here in this video, we're going to take a look at making GitHub Forks and PolarQuests.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 11.0,
+    "end": 18.5,
+    "text": " If you like videos about full-stack web development, machine learning and DevOps, then I would really appreciate it if you like and subscribe.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 18.5,
+    "end": 24.0,
+    "text": " On this video, we're going to talk about creating Forks and PolarQuests on GitHub.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 24.0,
+    "end": 32.0,
+    "text": " So one of the really important things about OpenSource is that the software we create in OpenSource projects is freely distributed.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 32.0,
+    "end": 43.0,
+    "text": " And so if you'd like to make a change to an existing OpenSource project, you can simply create a copy of that code for yourself and then work on it on your own.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 43.0,
+    "end": 55.0,
+    "text": " If you would like to contribute to a project, you can create a copy of that code and then make your changes and then request that those changes be merged back into that original project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 55.0,
+    "end": 64.0,
+    "text": " And when we're dealing with OpenSource projects on GitHub, creating a copy of some initial repository is called creating a Fork.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 64.0,
+    "end": 77.0,
+    "text": " And so in this video, we'll look at creating a Fork of an existing OpenSource project, making some changes and then creating a PolarQuests to actually request those changes, the merged back into that original project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 77.0,
+    "end": 84.0,
+    "text": " One of the really cool things about a PolarQuest is that you can create it early on in the process of making changes to a repository.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 84.0,
+    "end": 90.0,
+    "text": " So this is particularly useful if you're working on a larger bug fix or a feature request.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 90.0,
+    "end": 103.0,
+    "text": " And so what you would do is create a PolarQuest and then kind of share the ideas that you have, maybe some early code, some early changes, and then collaborate with other developers on the project as you work on those fixes.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 103.0,
+    "end": 118.0,
+    "text": " So that PolarQuest user interface really provides a nice way to collaborate with other developers as you're working on changes before those changes actually get approved and then potentially merged back into the master branch of some project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 118.0,
+    "end": 120.0,
+    "text": " So with that, let's dive into some code.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 120.0,
+    "end": 129.0,
+    "text": " We'll use a repository that I set up for this video, but you're more than welcome to use it as a practice repository for making Forks and PolarQuests.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 129.0,
+    "end": 133.0,
+    "text": " And if you have any questions at all, just be sure to leave them in the comments below.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 133.0,
+    "end": 138.0,
+    "text": " Alright, without let's take a look at some code.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 138.0,
+    "end": 146.0,
+    "text": " Okay, so our first step here is to visit GitHub and we'll find the project that we would like to fork.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 146.0,
+    "end": 154.0,
+    "text": " And for the sake of example, here I'm just going to fork a project that I created a couple of months ago, which is a Python epidemic simulation.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 154.0,
+    "end": 165.0,
+    "text": " I created this at the sort of start of the COVID-19 pandemic and was inspired by some interactive simulations that I saw in the news.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 165.0,
+    "end": 171.0,
+    "text": " And I just decided to create a really crude epidemic simulation here in Python.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 171.0,
+    "end": 176.0,
+    "text": " So you can check that out, but we're really just using this repository for the sake of example.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 176.0,
+    "end": 189.0,
+    "text": " So when we're working in open source and in particular here on GitHub and we'd like to make changes to a project say we need to create a bug fix or we'd like to otherwise contribute to some project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 189.0,
+    "end": 196.0,
+    "text": " Our first step is really to create a fork. And so I'm going to select fork here, directly on the project screen.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 196.0,
+    "end": 202.0,
+    "text": " And since I have a couple of organizations that up, it's going to ask me where should I fork this particular project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  },
+  {
+    "start": 202.0,
+    "end": 213.0,
+    "text": " So I'm going to fork this into an organizational account here, productive for productive dev. And we'll see this quick animation. I'll get up is forking the project. And when that's come.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.mp3"
+  }
+]

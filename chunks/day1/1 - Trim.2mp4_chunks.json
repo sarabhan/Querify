@@ -1,0 +1,272 @@
+[
+  {
+    "start": 0.0,
+    "end": 5.0,
+    "text": " select new pull request, directly next to the branch drop down.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 5.0,
+    "end": 9.68,
+    "text": " And then we're going to need to select compare across forks, because we're going to be",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 9.68,
+    "end": 15.56,
+    "text": " comparing across our fork that we actually created in our account, and we'd like to merge",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 15.56,
+    "end": 21.2,
+    "text": " that into the base repository from which we actually forked to begin with.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 21.2,
+    "end": 25.2,
+    "text": " So since I'm in control of both of these accounts, I have a drop down here, we're going",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 25.2,
+    "end": 32.44,
+    "text": " to select from my fork here, and we're going to open a pull request into the original",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 32.44,
+    "end": 33.44,
+    "text": " master branch.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 33.44,
+    "end": 38.3,
+    "text": " Now, we get this nice interface here to create this pull request, and we can leave comments",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 38.3,
+    "end": 43.56,
+    "text": " for instance, and we can preview, and we can use Markdown here, and there's some other",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 43.56,
+    "end": 48.8,
+    "text": " neat features here, for instance, assigning ourselves to this particular pull request,",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 48.8,
+    "end": 51.28,
+    "text": " or assigning other users.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 51.28,
+    "end": 55.96,
+    "text": " We can also assign reviewers and create labels, and assign this pull request to projects",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 55.96,
+    "end": 60.28,
+    "text": " and milestones, and lots of other sort of project related things that we can work through",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 60.28,
+    "end": 61.28,
+    "text": " here.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 61.28,
+    "end": 67.28,
+    "text": " Notice that we can also see the diff, so in this case, we only have these doctrings added,",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 67.28,
+    "end": 72.64,
+    "text": " and if we're satisfied with this, then we can just simply create the pull request.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 72.64,
+    "end": 78.16,
+    "text": " And so typically, if you're working as a developer at an organization, you'll have some type",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 78.16,
+    "end": 83.64,
+    "text": " of standard process for creating pull requests, often code will get reviewed in pull",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 83.64,
+    "end": 89.56,
+    "text": " requests, but this is just to say that there's typically some type of process.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 89.56,
+    "end": 95.4,
+    "text": " So again, note now that I am on the original Python epidemic simulation project, and since",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 95.4,
+    "end": 101.52,
+    "text": " I own this project, I can also just here approve the merge request, and merge it, otherwise",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 101.52,
+    "end": 103.92,
+    "text": " I could leave comments.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 104.32000000000001,
+    "end": 108.48,
+    "text": " So we could do things like look at the files changed, and we could even leave comments",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 108.48,
+    "end": 115.0,
+    "text": " on particular lines of code for the developer who opened the pull request to examine and review,",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 115.0,
+    "end": 120.44,
+    "text": " and then we can click finish our review, and in this case, I'm going to submit the review",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 120.44,
+    "end": 122.68,
+    "text": " with this single comment.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 122.68,
+    "end": 127.6,
+    "text": " And now the author of that could come back and examine the comment, and there could be some",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 127.6,
+    "end": 133.56,
+    "text": " discussion about the changes made, and then the author of the pull request could continue",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 133.56,
+    "end": 139.56,
+    "text": " making commits against this branch for which the pull request corresponds.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 139.56,
+    "end": 144.96,
+    "text": " And then once everyone is satisfied with the changes that we could then merge this pull",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 144.96,
+    "end": 150.08,
+    "text": " request, otherwise we could just choose not to merge it at any point in time and close",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 150.08,
+    "end": 151.08,
+    "text": " it.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 151.08,
+    "end": 155.76,
+    "text": " The merge pull request dropdown also has a few other options here, including squashing all",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 155.76,
+    "end": 160.44,
+    "text": " the commits on this branch into a single commit, if there are more than one, and then the",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 160.44,
+    "end": 163.04,
+    "text": " ability also to rebase and merge.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 163.16,
+    "end": 169.12,
+    "text": " Okay, so here I am going to just show you merging the pull request, this will get merged,",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 169.12,
+    "end": 173.28,
+    "text": " and now we'll see that the pull request has been merged.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 173.28,
+    "end": 181.32,
+    "text": " And so if we head back into the project here, we're now on the original repository, and",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 181.32,
+    "end": 187.23999999999998,
+    "text": " indeed we can see that in our constants.py file, our changes have now been merged back",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 187.23999999999998,
+    "end": 190.44,
+    "text": " into that original project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 190.44,
+    "end": 194.44,
+    "text": " So I hope you guys enjoyed this video, just kind of a simple demo on how you can",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 194.44,
+    "end": 200.68,
+    "text": " forker project on GitHub and then create a pull request across different repositories,",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 200.68,
+    "end": 207.36,
+    "text": " and then potentially have that pull request merged back into the original project.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 207.36,
+    "end": 210.24,
+    "text": " Okay, so that pretty much wraps up this video.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  },
+  {
+    "start": 210.24,
+    "end": 211.96,
+    "text": " As always, thanks for watching, and I'll see you next time.",
+    "audio": "D:\\PycharmProjects\\RAG-based-AI-teaching-assistant\\audio\\day1\\1 - Trim.2mp4.mp3"
+  }
+]
