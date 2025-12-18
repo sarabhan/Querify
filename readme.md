@@ -1,6 +1,6 @@
 # RAG-based AI Teaching Assistant (Upgraded Fork)
 
-This project is an upgraded version of [Prince-723/RAG-based-AI-teaching-assistant](https://github.com/Prince-723/RAG-based-AI-teaching-assistant). It implements a **RAG (Retrieval-Augmented Generation) pipeline** using **MongoDB for embeddings storage**, **SentenceTransformers** for embeddings, and **Ollama LLaMA 3.2 1B** model for generating answers.
+This project is an upgraded version of [Prince-723/RAG-based-AI-teaching-assistant](https://github.com/Prince-723/RAG-based-AI-teaching-assistant). It implements a **RAG (Retrieval-Augmented Generation) pipeline** using **MongoDB for embeddings storage**, **SentenceTransformers** for embeddings, and **Ollama LLaMA 3.2 1B** model for generating answers. 
 
 ---
 
@@ -8,26 +8,22 @@ This project is an upgraded version of [Prince-723/RAG-based-AI-teaching-assista
 
 This fork introduces several major enhancements over the original project:
 
-1. **MongoDB Embeddings Storage**
-   - Chunks are stored with embeddings in MongoDB for scalable retrieval.
-   - Supports recursive ingestion from a multi-day, multi-video directory structure.
-
-2. **Optimized Chunk Retrieval**
+1. **Optimized Chunk Retrieval**
    - Batch processing to handle thousands of chunks efficiently.
    - Metadata-based filtering (e.g., by day or video) for more precise context selection.
    - Sorted chunks by start time to maintain logical order.
+     
+2. **SentenceTransformers for Embeddings**
+   - Replaces LangChain/OpenAI embeddings with local SentenceTransformers.
+   - Enables fast, cost-free embedding generation for all chunks.
+   - Provides better quality semantic embeddings optimized for similarity search.
 
-3. **Ollama LLaMA 3.2 1B Integration**
-   - Replaces OpenAI GPT with a locally running LLaMA model via Ollama.
-   - Generates answers using the retrieved top-k chunks as context.
-   - Fully compatible with latest Ollama Python SDK.
-
-4. **Improved Answer Quality**
+3. **Improved Answer Quality**
    - Optimized prompt engineering for detailed and precise answers.
    - Adjustable parameters like `TOP_K`, `temperature`, and `max_tokens`.
    - Context-aware, deterministic responses with less vagueness.
 
-5. **Scalability & Flexibility**
+4. **Scalability & Flexibility**
    - Designed for multi-day, multi-video datasets.
    - Easy to expand: add more metadata filters, chunk summarization, or larger LLaMA models.
 
@@ -67,11 +63,12 @@ ollama pull llama-3.2:1b
 ---
 ## 🛠️ Optimization Tips
 
-TOP_K: Increase number of chunks retrieved for richer context.
-Chunk size: Use larger chunks for better context coverage.
-Metadata filtering: Restrict search by day or video to reduce noise.
-Prompt engineering: Include explicit instructions in prompts for more precise answers.
-Temperature / max_tokens: Adjust in Ollama for deterministic or detailed outputs.
+- TOP_K: Increase number of chunks retrieved for richer context.
+- Chunk size: Use larger chunks for better context coverage.
+- Metadata filtering: Restrict search by day or video to reduce noise.
+- Prompt engineering: Include explicit instructions in prompts for more precise answers.
+- Temperature / max_tokens: Adjust in Ollama for deterministic or detailed outputs.
 
-### _This repo is open for further collaborations, discussions, and issues!
+
+### This repo is open for further collaborations, discussions, and issues!
 Feel free to create your own issues or head to the discussions page!
