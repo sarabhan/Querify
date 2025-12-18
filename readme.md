@@ -72,3 +72,13 @@ ollama pull llama-3.2:1b
 
 ### This repo is open for further collaborations, discussions, and issues!
 Feel free to create your own issues or head to the discussions page!
+
+## ⚠️ Note on This Fork
+
+This project is a **fork of [Prince-723/RAG-based-AI-teaching-assistant](https://github.com/Prince-723/RAG-based-AI-teaching-assistant)**. 
+
+- The original repository is maintained by Prince-723, who appears to be inactive.  
+- This fork includes **new features and optimizations**, including MongoDB embeddings storage, SentenceTransformers integration, and Ollama LLaMA 3.2 1B for answer generation.  
+- You are welcome to **contribute to this fork** by opening issues or pull requests.  
+
+> ⚠️ All contributions here are made under this fork; changes do **not** affect the original repository. 
