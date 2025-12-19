@@ -58,7 +58,9 @@ ollama pull llama-3.2:1b
 - Setup MongoDB using this official link: https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.2.2-signed.msi
 - Setup Mongosh using this official link: https://downloads.mongodb.com/compass/mongosh-2.5.10-x64.msi
 
-### Step 5: Run main.py file
+### Step 5: Change folder paths in the 'config.py' file
+
+### Step 6: Run main.py file
 ---
 ## 🛠️ Optimization Tips
 
