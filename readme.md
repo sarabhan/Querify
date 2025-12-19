@@ -83,4 +83,4 @@ This project is a **fork of [Prince-723/RAG-based-AI-teaching-assistant](https:/
 - You are welcome to **contribute to this fork** by opening issues or pull requests.  
 
 > ⚠️ All contributions here are made under this fork; changes do **not** affect the original repository.
-> ## Please open all your pull requests against the 'development' branch.
+## Please open all your pull requests against the 'development' branch.
